@@ -1,0 +1,172 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+section, header, footer{
+	width: 100%;
+	overflow: hidden;
+}
+
+
+/* Styles */
+header{
+	text-align: center;
+
+	background: #5fa9b2;
+	background: -moz-linear-gradient(-45deg,  #5fa9b2 0%, #306182 100%);
+	background: -webkit-linear-gradient(-45deg,  #5fa9b2 0%,#306182 100%);
+	background: linear-gradient(135deg,  #5fa9b2 0%,#306182 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5fa9b2', endColorstr='#306182',GradientType=1 );
+
+	color: white;
+
+	height: 100vh;
+	display: flex;
+	margin: auto;
+
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+header nav{
+	position: absolute;
+	left: 0px;
+	top: 20px;
+}
+
+header nav a{
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+}
+
+header h1{
+	font-size: 80px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+header h2{
+	margin-top: 0px;
+}
+
+h1, h2{
+	font-family: 'CubanoRegular';
+}
+
+h3{
+	color: #447F96;
+}
+
+section h1, section h2{
+	color: #447F96;
+}
+
+.button{
+	display: inline-block;
+	padding: 15px;
+	border: 2px solid white;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+}
+
+.button:hover{
+	background-color: white;
+	color: #447F96;
+}
+
+.button.dark{
+	color: #447F96;
+	border-color: #447F96;
+}
+
+.button.dark:hover{
+	background-color: #447F96;
+	color: white;
+}
+
+
+/* grids */
+
+.g-row{
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+}
+
+.g-50{
+	width: 50%;
+}
+
+.wrap{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ta-c{
+	text-align: center;
+}
+
+.padded{
+	padding: 40px;
+}
+
+/* when - where */
+
+.when-where{
+	padding: 40px;
+}
+
+
+/* activites */
+.dota-shot{
+	background-image: url('../img/photo.jpg');
+	background-size: cover;
+}
+
+.blue{
+	background: #5fa9b2;
+	background: -moz-linear-gradient(-45deg,  #5fa9b2 0%, #306182 100%);
+	background: -webkit-linear-gradient(-45deg,  #5fa9b2 0%,#306182 100%);
+	background: linear-gradient(135deg,  #5fa9b2 0%,#306182 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5fa9b2', endColorstr='#306182',GradientType=1 );
+
+	color: white;
+}
+
+.blue p strong{
+	font-family: 'CubanoRegular';
+	font-size: 1.5em;
+	margin-right: 40px;
+	display: inline-block;
+}
+
+footer p{
+	color: rgba(0,0,0,0.2);
+	font-size: 15px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .g-50{
+    	width: 100%;
+    }
+
+    .g-row{
+    	flex-wrap: wrap;
+    }
+
+    h1{
+    	font-size: 40px !important;
+    }
+}
