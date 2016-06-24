@@ -27,13 +27,21 @@ header{
 
 	color: white;
 
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	margin: auto;
 
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
+}
+
+.hero-wrap{
+	padding: 60px;
+}
+
+.video-wrap{
+	padding-top: 23px;
 }
 
 header nav{
