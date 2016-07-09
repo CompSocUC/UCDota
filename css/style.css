@@ -182,3 +182,22 @@ footer p{
     	font-size: 40px !important;
     }
 }
+
+.spots{
+    color: white;
+}
+
+.thead{
+    font-family: 'CubanoRegular';
+    font-size:1.5em;
+}
+
+.teams{
+    text-align: center;
+    display: flex;
+    margin: auto;
+
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
