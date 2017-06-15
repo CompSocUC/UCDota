@@ -201,3 +201,14 @@ footer p{
     justify-content: center;
     align-items: center;
 }
+
+.register{
+    text-align: center;
+    display: flex;
+    margin: auto;
+
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+		padding: 15px;
+}
