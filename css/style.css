@@ -212,3 +212,14 @@ footer p{
     align-items: center;
 		padding: 15px;
 }
+
+.casting{
+    text-align: center;
+    display: flex;
+    margin: auto;
+
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+		padding: 15px;
+}
