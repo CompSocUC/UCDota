@@ -168,6 +168,11 @@ footer p{
 	font-size: 15px;
 }
 
+/* sponsors */
+.major{
+	background-image: url('../img/major_sponsors.png');
+	background-size: cover;
+}
 
 @media screen and (max-width: 800px) {
     .g-50{
@@ -222,4 +227,19 @@ footer p{
     justify-content: center;
     align-items: center;
 		padding: 15px;
+}
+
+.sponsors{
+    text-align: center;
+    display: flex;
+    margin: auto;
+
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+		padding: 15px;
+}
+
+.sponsors h2{
+		color: white;
 }
