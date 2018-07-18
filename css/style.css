@@ -27,13 +27,21 @@ header{
 
 	color: white;
 
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	margin: auto;
 
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
+}
+
+.hero-wrap{
+	padding: 60px;
+}
+
+.video-wrap{
+	padding-top: 23px;
 }
 
 header nav{
@@ -160,6 +168,11 @@ footer p{
 	font-size: 15px;
 }
 
+/* sponsors */
+.major{
+	background-image: url('../img/major_sponsors.png');
+	background-size: cover;
+}
 
 @media screen and (max-width: 800px) {
     .g-50{
@@ -173,4 +186,60 @@ footer p{
     h1{
     	font-size: 40px !important;
     }
+}
+
+.spots{
+    color: white;
+}
+
+.thead{
+    font-family: 'CubanoRegular';
+    font-size:1.5em;
+}
+
+.teams{
+    text-align: center;
+    display: flex;
+    margin: auto;
+
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.register{
+    text-align: center;
+    display: flex;
+    margin: auto;
+
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+		padding: 15px;
+}
+
+.casting{
+    text-align: center;
+    display: flex;
+    margin: auto;
+
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+		padding: 15px;
+}
+
+.sponsors{
+    text-align: center;
+    display: flex;
+    margin: auto;
+
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+		padding: 15px;
+}
+
+.sponsors h2{
+		color: white;
 }
